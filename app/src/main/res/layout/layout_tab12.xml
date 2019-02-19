@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcome">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="历史渊源"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="相传清朝康熙八年，由安徽黄山来京赶考的王致和金榜落第，闲居在会馆中，欲返归故里，交通不便，盘缠皆无，欲在京攻读，准备再次应试，又距下科试期甚远。无奈，只得在京暂谋生计。王致和的家庭原非富有，其父在家乡开设豆腐坊，王致和幼年曾学过做豆腐，于是便在安徽会馆附近租赁了几间房，购置了一些简单的用具，每天磨上几升豆子的豆腐，沿街叫卖。时值夏季，有时卖剩下的豆腐很快发霉，无法食用，但又不甘心废弃。他苦思对策，就将这些豆腐切成小块，稍加晾晒，寻得一口小缸，用盐腌了起来，之后歇伏停业，一心攻读，渐渐地便把此事忘了。
+       秋风飒爽，王致和又重操起了旧业，再做豆腐来卖。蓦地想起那缸腌制的豆腐，赶忙打开缸盖，一股臭气扑鼻而来，取出一看，豆腐已呈青灰色，用口尝试，觉得臭味之余却蕴藏着一股浓郁的香气，虽非美味佳肴，却也耐人寻味。送给邻里品尝，都称赞不已。
+       王致和屡试不中，只得弃学经商，按过去试做的方法加工起臭豆腐来。此物价格低廉，可以佐餐下饭，适合收入低的劳动人食用，所以渐渐打开销路，生意日渐兴隆。后经辗转筹措，在延寿街中间路西购置了一所铺面房，自产自销，批零兼营。据其购置房屋的契约所载，时为康熙十七年冬。从王致和创造了独一无二的臭豆腐以后，又经多次改进，逐渐摸索出一套臭豆腐的生产工艺，生产规模不断扩大，质量更好，名声更高。清朝末叶，传入宫廷。传说慈禧太后在秋末冬初也喜欢吃它，还将其列为御膳小菜，但嫌其名称不雅，按其青色方正的特点，取名“青方”。"
+        android:textSize="14dp" />
+</LinearLayout>

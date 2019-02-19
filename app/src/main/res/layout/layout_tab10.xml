@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="世界之窗奇遇记"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_marginTop="10dp"
+        android:text="我是任性的孩子，
+我想在大地上画满窗子，让所有习惯黑暗的眼睛都习惯光明
+小的时候，爸爸给我画了一扇神奇的窗户，它能像任意门一样，跨越山河湖海
+带我去看电视上才有的地方。
+埃及的金字塔、悉尼的歌剧院、原来世界这么大。。。"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:src="@drawable/r8" />
+</LinearLayout>

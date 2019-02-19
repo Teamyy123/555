@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcome">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="历史简介"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="长沙人爱吃口味虾，只能用“疯狂”这两个字来形容。口味虾自上世纪90年在长沙南门口出现后，经过这漫长的十几年时间，能一直得到嘴刁的长沙人的喜爱，可以说是创造了一个吃虾奇迹。相对于酒楼、食府而言，虽然吃口味虾的店面环境不是很好，有的甚至还是座在马路边上吃，但从名牌主持到影视名人到普通百姓，都抵挡不了这样一只小小口味虾的诱惑，一定要吃上一回才过瘾。"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/r21" />
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liupe.fragement_cs1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lvyou"
+        android:label="长沙旅游助手"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ZU_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Logn" />
+        <activity android:name=".PhoneActivity" />
+        <activity android:name=".meijin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".meishi" />
+        <activity android:name=".ViewVidoeActivity" />
+        <activity android:name=".ViewVidoe1Activity" />
+        <activity android:name=".ViewVidoe2Activity" />
+        <activity android:name=".ViewVidoe3Activity" />
+        <activity android:name=".ViewVidoe4Activity" />
+        <activity android:name=".ViewVidoe5Activity" />
+        <activity android:name=".Main10Activity"/>
+    </application>
+
+</manifest>

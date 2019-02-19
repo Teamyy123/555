@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口感描述"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_marginTop="10dp"
+        android:text="吃糖油粑粑不能着急，新鲜出锅的糖油粑粑金黄脆嫩，甜而不浓，油而不腻，软软的，柔柔的，色香诱人，引人胃口大开，使人想一口气就全部吞下。
+        但刚出锅的粑粑，热气腾腾，一不小心就会烫着舌头，伤到嘴。因此吃糖油粑粑时绝对不能狼吞虎咽，一扫而光，而要慢条斯理，悠着乐着地一点点吃，一点点品尝。性急的邵阳人干什么都风风火火，但吃糖油粑粑时却不急不燥，非常有耐心。
+        邵阳人常常买上一碗糖油粑粑，一路逛街行走，一路慢慢尝用。吃粑粑时，他们会停止一切思考，忘记周围一切场景，所有的心思都倾注在粑粑上，先用嘴巴轻轻吹散粑粑上的热气，用筷子轻轻翻动着小塑料碗内的粑粑，再用舌头舔舔粑粑，然后才扯开一小块一小块地吃着，慢慢地、细心地咀嚼着，吞咽着，把粑粑的甜味、香味一股脑儿地、悠悠地吞进肚里，让肠胃温和地消化着。"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/r19" />
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r20" />
+    </LinearLayout>
+</LinearLayout>

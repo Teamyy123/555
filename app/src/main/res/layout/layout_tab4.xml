@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="人文岳麓"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/r3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爱晚亭"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    位于湖南省长沙市岳麓山下清风峡中，始建于1792年，名字来源于杜牧的七言绝句《山行》中的“停车坐爱枫林晚”。
+爱晚亭与陶然亭、湖心亭、醉翁亭并称中国四大名亭，也是革命活动胜地，为湖南省文物保护单位。亭形为重檐八柱，琉璃碧瓦，亭角飞翘，自远处观之似凌空欲飞状。内为丹漆园柱，外檐四石柱为花岗岩，亭中彩绘藻井，东西两面亭棂悬以红底鎏金“爱晚亭”，是由当时的湖南大学校长李达专函请毛泽东所书手迹而制。"
+        android:textSize="16sp" />
+
+</LinearLayout>

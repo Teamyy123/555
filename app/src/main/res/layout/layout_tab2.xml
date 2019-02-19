@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="岳麓红枫"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:src="@drawable/r1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自故湘水岳麓就是孕育人才的摇篮，
+岳麓山与南岳衡山有着一衣带水的关系，因此得名“岳麓山”
+人杰带灵的岳麓山孕育了湖湘文化，也见证了湖南子民的沧桑传承。
+拿出一个周末，一起，寻根湖湘文化，体验灵秀岳麓。"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秋日暖阳，枫叶似火，岳麓山是中国四大观风圣地之一
+枫叶连绵，红动三江"
+        android:layout_marginLeft="25dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+</LinearLayout>

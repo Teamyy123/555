@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作原料"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    臭豆腐以优质黄豆为原料。制作工艺较为复杂，黄豆经过筛选、脱壳、浸泡、磨浆、过滤、煮浆、点浆、成型、划块、发酵等十道工序。呈贡臭豆腐质地软滑，散发异香。先人赞誉云：“味之有余美，玉食勿与传”。它不仅有很高的营养价值，而且有较好的药用价值。古医书记载，臭豆腐可以寒中益气，和脾胃，消胀痛，清热散血，下大肠浊气。常食者，能增强体质，健美肌肤。该报道称，臭豆腐中含有植物性乳酸菌，跟酸奶中的一样。有“植物性乳酸菌研究之父”之称的日本东京农业大学冈田早苗教授发现，臭豆腐、泡菜等食品当中，含有高浓度的植物杀菌物质，包括单宁酸、植物碱等，而植物性乳酸菌在肠道中的存活率比动物性乳酸菌高。"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="191dp"
+            android:src="@drawable/r12" />
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="191dp"
+            android:src="@drawable/r13" />
+    </LinearLayout>
+</LinearLayout>

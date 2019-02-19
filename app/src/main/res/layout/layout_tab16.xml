@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcome">
+    <TextView
+    android:id="@+id/mtextView"
+    android:layout_marginTop="80dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="历史渊源"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="糖油粑粑是湖南长沙市的地方传统名吃，糖油粑粑造价便宜，主要原料是糯米粉和糖，但其制造工艺精细讲究，有特殊的制造过程。它虽不能登大雅之堂，更不能与山珍海味、鱼翅熊掌相媲美，但正是因其廉价的身份，它能出入平常百姓家，受到民众的厚爱，成为民间长吃不厌的小吃。
+在长沙，不管人的俊美丑恶、身份地位，也不管男女老少，凡是热爱生活、懂得享受吃的乐趣之人，都有吃糖油粑粑的美妙感受，都对那三毛钱一个的糖油粑粑有特殊感情。早上三个糖油粑粑下肚，可饱一天精神，充沛体力，下午三个糖油粑粑打牙祭，提神饱肚，精神旺盛，糖油粑粑的滋味和作用在长沙人眼里都是奇妙无穷的。"/>
+</LinearLayout>

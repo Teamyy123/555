@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作原料/方法"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、小龙虾的做法有很多种，本人湖南人，对长沙口味虾式的味道情有独钟：香、辣、就是有味。
+2、准备主食材小龙虾。最好静养一天，或更长，静养的话用清水就好；如果急着吃，养的时间短就在清水加点醋。只要你养着放那里，下次去换水时，你就会发现，为什么要自己用清水养了，因为上次换的清水又变成了浑水。"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/r22" />
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="156dp"
+        android:src="@drawable/r23" />
+</LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去头部。用手扣头部旁边的硬壳，稍使劲，整个头部壳就会脱落（有点小残忍），同时去掉黄色部分。
+2、去背面的筋，也就是虾尾线。用力捏住尾部，左右两边稍稍转一下，然后慢慢用力拉，整个虾尾线就会抽出来"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="129dp"
+            android:src="@drawable/r24" />
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r25" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_meishi6"
+        android:title=" 美食视频大全"
+        android:icon="@mipmap/zhuye" />
+    <item
+        android:id="@+id/app_meishi1"
+        android:title="长沙美景"
+        android:icon="@mipmap/zhuye" />
+    <item
+        android:id="@+id/app_meishi2"
+        android:title="长沙美食"
+        android:icon="@mipmap/zhuye" />
+    <item
+        android:id="@+id/app_meishi3"
+        android:title="旅游电话"
+        android:icon="@mipmap/zhuye" />
+    <item
+        android:id="@+id/app_meishi"
+        android:title="长沙天气"
+        android:icon="@mipmap/zhuye"/>
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="岳麓书院"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/r2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="岳麓书院"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北宋开宝九年（公元976年）,潭州太守朱洞在僧人办学的基础上”因袭增拓“创立岳麓书院，与江西庐山白鹿洞书院、河南登封嵩阳书院、河南商丘应天书院。合称中国古代四大书院。
+        山荫后人，人文养山。灵秀的岳麓山是历代文人骚客的汇聚之地，它们留下了灿烂的笔迹和诗篇。"
+        android:textSize="18sp" />
+
+</LinearLayout>

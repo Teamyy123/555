@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口感描述"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    说湖南的小吃，人们脑子里最先蹦出来的一个字就是：辣。但是今天要聊的这个主题，它不是以辣出名，而是：臭。没错，长沙臭豆腐在不少人心中，就是执念。很爱它的人真的很爱很爱，而受不了它的人，隔着百八十里闻着那个味道，巴不得绕着走。"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="169dp"
+            android:src="@drawable/r14" />
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="169dp"
+            android:src="@drawable/r13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r16" />
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="124dp"
+            android:src="@drawable/r17" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+长沙的臭豆腐真的很形象，除了“臭”味“臭”飘十里外，从颜色、气味上来看，它都符合“臭豆腐”三字。黑乎乎的颜色，闻起来怪怪的气味。大多数人对这样一种长相和气味都存在短板的美食存在误解，其实也都是很正常的。"/>
+</LinearLayout>

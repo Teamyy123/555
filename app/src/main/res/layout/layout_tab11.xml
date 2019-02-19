@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爸爸说，这里的城堡来自欧洲，就是我童话书里说的那个地方，里面有相亲相爱的王子和公主"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:src="@drawable/r9" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:src="@drawable/r10" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="他们的游戏机可以飞到很高的地方，比欧洲城堡还高。"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/k1" />
+
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:src="@drawable/k2" />
+    </LinearLayout>
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2008年打造的“新概念水世界”由试水区、泼水区、游泳区、三部分构成。五彩缤纷的水上游戏让你清凉一夏。"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:layout_gravity="center"
+        android:src="@drawable/r11" />
+
+</LinearLayout>

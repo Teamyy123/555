@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcome">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="入园指南"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开放时间"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6月-九月：07：00-18：00开放；
+10月-5月： 07：30-17：30开放；
+地址：湖南省长沙市雨花区植物园路111号"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="优惠政策"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A.60周年（含）-69周岁（含）的老人（凭身份证享半价优惠）
+B.全日制大学本科及以下学历在校学生（凭本人学生证）享半价优惠
+C.现役军人、军队离退休干部（凭有效证件）享半价优惠
+D.香港、澳门、台湾等入境青少年（凭学生证）享半价优惠" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小贴士"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、请爱护花朵，不要践踏、采摘。
+2、景区内请你保管好您的随身物品，避免遗忘或丢失；
+3.请您爱护环境，不要在景区建筑及植物上刻、画、写、涂，随意乱丢烟头、果皮、纸屑。"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交通路线"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="152、7、102、107、103、123、134、147、502、703、801、802路公交车到植物园站下"/>
+</LinearLayout>

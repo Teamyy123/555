@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作步骤2"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、爆香后的小龙虾盛出备用。（绯红的颜色，很漂亮吧，也很香）"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、倒入之前爆香备用的龙虾，放入八角、桂皮，香叶、干辣椒等配料翻炒均匀，然后倒入啤酒，淹到龙虾为好，再盖锅盖，闷煮。大伙烧开，然后转中小火慢慢煮，15-20分钟吧，看量去，主要是让龙虾入味。"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="香喷喷的”长沙口味虾“完美出锅"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="135dp"
+            android:src="@drawable/r31" />
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r32" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="135dp"
+            android:src="@drawable/r33" />
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r35" />
+
+    </LinearLayout>
+</LinearLayout>

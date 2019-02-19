@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wlcome"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/main">
+        </include>
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="meijin"
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/meijing_" />
+            <ImageButton
+                android:onClick="meishi"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/meishi"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长沙美景"
+                android:textSize="25sp"
+                android:textColor="#101"
+                android:layout_marginLeft="60sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长沙美食"
+                android:textColor="#101"
+                android:textSize="25sp"
+                android:layout_marginLeft="70sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:onClick="dianhua"
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                android:src="@drawable/dianhua"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:onClick="tianqi"
+                android:src="@drawable/dd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旅游电话"
+                android:textSize="25sp"
+                android:layout_marginLeft="60sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频大全"
+                android:textSize="25sp"
+                android:layout_marginLeft="70sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

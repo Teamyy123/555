@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+         <item android:id="@+id/men1"
+              android:title="返回登陆界面"
+             />
+    <item android:id="@+id/men2"
+        android:title="岳麓山"
+        />
+    <item android:id="@+id/men3"
+        android:title="湖南省植物公园"
+        />
+    <item android:id="@+id/men4"
+        android:title="长沙世界之窗"
+        />
+    <item android:id="@+id/men5"
+        android:title="臭豆腐"
+        />
+    <item android:id="@+id/men6"
+        android:title="糖油粑粑"
+        />
+    <item android:id="@+id/men7"
+        android:title="长沙口味虾"
+        />
+    <item android:id="@+id/men8"
+        android:title="旅游电话"
+        />
+
+</menu>

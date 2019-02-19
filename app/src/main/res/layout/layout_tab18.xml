@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作方法"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="1、油锅烧热，糯米粉搓成饼状下锅。 油要多放些。因为又要搓面团又要煎给粑粑翻身，手忙脚乱，火可以稍小，否则不好掌控。
+2、翻煎粑粑。注意，不要煎到太老，否则容易爆破。
+3、待粑粑两面都呈浅金黄色，将调好的糖汁倒入。糖水和油迅速融合，冒泡。 这一过程要反复翻拌，让每个粑粑都均匀沾到糖汁。 粑粑渐渐变软，着色，油光发亮，看看差不多了，起锅盛盘。"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/r18" />
+</LinearLayout>

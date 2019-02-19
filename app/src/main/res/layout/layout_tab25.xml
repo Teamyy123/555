@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口感极佳"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="现在正值吃口味虾的最佳季节，在夜幕降临的时候，走在长沙的街头巷尾，你会发现几乎每桌的食客都在对其桌上的那一盆盆口味虾在“张牙舞爪”，尽管个个被辣得嘴巴通红、眼泪汪汪、满头大汗，却依然都是那么乐此不疲，满怀斗志。
+口味虾，长沙人喜欢叫它为龙虾，其实并不是龙虾也，你想哪里有这么多的龙虾能满足长沙人的虾瘾啊，何况，龙虾在海洋中才有，而这虾子在湖区生长。虾子大的约五寸长，有双钳，壳硬；传说是从澳洲引进，后来，没有天敌，搞的到处都是，甚至还喜欢在大堤下面打洞，危害一方，生长非常快，现在，长沙人一边吃它还一边带着一股为民除害的神情。"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="177dp"
+            android:src="@drawable/r36" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/r37" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

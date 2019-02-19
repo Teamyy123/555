@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcome">
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作原料"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="材料"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主料
+        糯米500g
+辅料
+      油适量、糖适量"/>
+    <TextView
+        android:id="@+id/mtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步骤"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+1.准备片糖二块。
+2.准备水磨糯米粉。
+3.糯米粉少量多次的加水合成手光盆光的团。
+4.在分成等量大小搓圆。
+5.搓圆的糯米球放手心按扁，不要太薄。
+6.锅里下油，油热下糯米坯子，煎至两面微黄。
+7.锅里留底油下一碗水，下片糖煮至浓绸。
+8.下糯米饼，小米翻炒至每一片都均匀的挂上糖桨，收汁即可享用。"/>
+</LinearLayout>

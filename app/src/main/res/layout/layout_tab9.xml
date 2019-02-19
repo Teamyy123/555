@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wlcome">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="入园指南"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开放时间"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08：30-18：30开放；
+地址：湖南省长沙市开福区三一大道485号（靠近湖南广电）"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="优惠政策"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、1.3-1.4米儿童购半票，1.3以下儿童免费，1.4米以上儿童全票
+        2、60岁以上的老人、残疾人和现役军人凭有效证件给予五折优惠。
+    3、幼儿团队50元/人；小学生--研究团队90元/人"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小贴士"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、注意饮食卫生：提高防护传染病、流行病的意识。注意用餐卫生，不食用不卫生、不合格的食品及饮料
+2、做好个人防护：备好相应的服装鞋、帽，做好防晒、防蚊虫等工作
+3、注意人生安全：请在自己能够控制风险的范围内活动，注意人身安全，旅途中遇紧急情况的，应立即报警。
+携带旅行票证：个人身份证件、旅行证件、交通票证、交通票证请随身妥善保管，以避免遗忘、丢失。"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交通线路"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、汽车西站（广夏新苑）坐704路到银盆岭大桥西/新河，换乘132路到世界之窗
+2、汽车西站坐309路/315路到高叶塘下，走到高叶塘荣弯路换成132路到世界之窗"/>
+</LinearLayout>

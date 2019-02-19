@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制作步骤1"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、用剪刀从背部剪开。为了更入味，这个步骤不能少，剪完后，整个沥水备用。"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="135dp"
+            android:src="@drawable/r26" />
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r27" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="135dp"
+            android:src="@drawable/r28" />
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/r29" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热锅放油（油稍多一点，用来爆龙虾的），姜蒜末放一半（留一半等会还有用），稍翻炒至出香味。" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="倒入之前清洗好的小龙虾，翻炒，翻炒，翻炒直到爆出香味（大概七八分钟吧，具体得根据龙虾的量看情况去，这里是2斤的量）。" />
+
+</LinearLayout>

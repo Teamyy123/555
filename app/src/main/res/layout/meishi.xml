@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/c1">
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="choudoufu"
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/d1" />
+        <ImageButton
+            android:onClick="baba"
+            android:id="@+id/image2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/d2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="xiazi"
+            android:id="@+id/image3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/d3" />
+
+        <ImageButton
+            android:onClick="doupi"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/d4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="banfen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/d5" />
+        <ImageButton
+            android:onClick="cha"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/d6" />
+    </LinearLayout>
+</LinearLayout>
